@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Кав'ярня-кондитерська Jardin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo">Jardin</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="active" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="contacts_page_title">Контакти</h1>
+                <p data-i18n="contacts_page_subtitle">Завітайте до нас на каву та десерти</p>
+            </div>
+        </section>
+
+        <section class="contacts-section section-padding">
+            <div class="container">
+                <div class="contacts-grid">
+                    <div class="contact-info-box">
+                        <div class="contact-item">
+                            <h3 data-i18n="c_address_title">Адреса</h3>
+                            <p data-i18n="footer_address">вулиця Трускавецька, 1, Дрогобич, Львівська область, Україна</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 data-i18n="c_phone_title">Телефон</h3>
+                            <p><a href="tel:+380637419797">+380637419797</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 data-i18n="c_hours_title">Графік роботи</h3>
+                            <p data-i18n="c_hours_val">Пн-Сб: 09:00 - 21:00, Нд: 10:00 - 21:00</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 data-i18n="footer_socials_title">Ми в соцмережах</h3>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/jardin_cake/" target="_blank" rel="noopener">Instagram</a>
+                                <a href="https://www.facebook.com/jardinkava/" target="_blank" rel="noopener">Facebook</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=вулиця+Трускавецька,+1,+Дрогобич" target="_blank" rel="noopener">Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map-box">
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.123!2d23.504!3d49.351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473c155555555555%3A0x5555555555555555!2z0LLRg9C70LjRhtGPINCTRgNCw0LfQsNC70YzQutC40L3Qu9GMLCAxLCDQlNCv0L7Qs9C60LjQvdCwLCDv73OucGJ0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHQtGGBJ9C-!5e0!3m2!1suk!2sua!4v1700000000000!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Jardin</h3>
+                <p data-i18n="footer_address">вулиця Трускавецька, 1, Дрогобич, Львівська область, Україна</p>
+                <p>Тел: <a href="tel:+380637419797">+380637419797</a></p>
+            </div>
+            <div class="footer-socials">
+                <h4 data-i18n="footer_socials_title">Ми в соцмережах</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/jardin_cake/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.facebook.com/jardinkava/" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=вулиця+Трускавецька,+1,+Дрогобич" target="_blank" rel="noopener">Google Maps</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Jardin. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
