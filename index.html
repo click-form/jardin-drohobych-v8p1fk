@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав'ярня-кондитерська Jardin у Дрогобичі</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo">Jardin</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Кав'ярня-кондитерська Jardin у Дрогобичі</h1>
+                <p data-i18n="hero_subtitle">Затишне місце для приємного відпочинку, зустрічей з друзями та вишуканих десертів у центрі міста.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути меню</a>
+                    <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_contacts">Контакти</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="features_title">Чому обирають Jardin</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3 data-i18n="feat_1_title">Ароматна кава</h3>
+                        <p data-i18n="feat_1_desc">Широкий асортимент кавових напоїв та чаїв вищої якості для справжніх поціновувачів.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍰</div>
+                        <h3 data-i18n="feat_2_title">Власні десерти</h3>
+                        <p data-i18n="feat_2_desc">Вишукані чизкейки, макаронс та авторські тортики власного виробництва на замовлення.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🥐</div>
+                        <h3 data-i18n="feat_3_title">Сніданки та млинці</h3>
+                        <p data-i18n="feat_3_desc">Смачні ситні сніданки, а також м'ясні, грибні та солодкі млинці на будь-який смак.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-gallery section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="gallery_preview_title">Атмосфера закладу</h2>
+                </div>
+                <div class="gallery-preview-grid">
+                    <div class="gallery-item">
+                        <img src="images/photo-01.jpg" alt="Кав'ярня-кондитерська Jardin у Дрогобичі" loading="eager">
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="gallery.html" class="btn btn-secondary" data-i18n="btn_all_photos">Більше фото</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Jardin</h3>
+                <p data-i18n="footer_address">вулиця Трускавецька, 1, Дрогобич, Львівська область, Україна</p>
+                <p>Тел: <a href="tel:+380637419797">+380637419797</a></p>
+            </div>
+            <div class="footer-socials">
+                <h4 data-i18n="footer_socials_title">Ми в соцмережах</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/jardin_cake/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.facebook.com/jardinkava/" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=вулиця+Трускавецька,+1,+Дрогобич" target="_blank" rel="noopener">Google Maps</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Jardin. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
